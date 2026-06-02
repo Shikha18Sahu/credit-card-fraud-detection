@@ -138,10 +138,8 @@ st.markdown("""
 @st.cache_data
 def load_data():
     file_id = "1AF4XH5x7ah3DarmjSIpoc6I6IAy0y9ju"
-    url = f"https://drive.google.com/uc?id={file_id}"
+    url = f"https://drive.google.com/uc?export=download&confirm=t&id={file_id}"
     return pd.read_csv(url)
-
-dataset = load_data()
 
 # ---------------- Sidebar Navigation ----------------
 st.sidebar.title("🧭 Navigation")
