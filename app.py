@@ -4,6 +4,8 @@ import numpy as np
 import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
+import gdown
+import os
 
 # Page setup
 st.set_page_config(
@@ -140,7 +142,14 @@ def load_data():
     file_id = "1AF4XH5x7ah3DarmjSIpoc6I6IAy0y9ju"
     url = f"https://drive.google.com/uc?export=download&confirm=t&id={file_id}"
     return pd.read_csv(url)
+   try:
     dataset = load_data()
+except Exception as e:
+    st.error(f"Dataset load nahi hua: {e}")
+    st.stop()
+
+# Iske baad hi dataset use karo
+st.metric("Total Rows", f"{dataset.shape[0]:,}")
 
 # ---------------- Sidebar Navigation ----------------
 st.sidebar.title("🧭 Navigation")
