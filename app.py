@@ -135,7 +135,12 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ---------------- Load Dataset ----------------
-dataset = pd.read_csv("/content/creditcard_2023.csv")
+@st.cache_data
+def load_data():
+    url = "https://raw.githubusercontent.com/plotly/datasets/master/creditcard.csv"
+    return pd.read_csv(url)
+
+dataset = load_data()
 
 # ---------------- Sidebar Navigation ----------------
 st.sidebar.title("🧭 Navigation")
