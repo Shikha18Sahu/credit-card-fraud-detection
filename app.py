@@ -137,7 +137,8 @@ st.markdown("""
 # ---------------- Load Dataset ----------------
 @st.cache_data
 def load_data():
-    url = "https://raw.githubusercontent.com/plotly/datasets/master/creditcard.csv"
+    file_id = "1AF4XH5x7ah3DarmjSIpoc6I6IAy0y9ju"
+    url = f"https://drive.google.com/uc?id={file_id}"
     return pd.read_csv(url)
 
 dataset = load_data()
