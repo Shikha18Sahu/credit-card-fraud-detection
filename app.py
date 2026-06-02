@@ -155,7 +155,7 @@ section = st.sidebar.radio(
 )
 
 st.sidebar.markdown("---")
-st.sidebar.info("👩‍💻 Developed by *Shikha & Saurabh*")
+st.sidebar.info("👩‍💻 Developed by *Shikha*")
 st.sidebar.markdown("📅 Credit Card Fraud Detection Project 2025")
 
 # Set matplotlib style for better charts
@@ -313,7 +313,7 @@ elif section == "ℹ About Project":
         ---
 
         ### 👩‍💻 Developer
-        *Shikha Sahu* & *Saurabh Singh*
+        *Shikha Sahu* 
         """)
 
     with col2:
@@ -332,7 +332,7 @@ elif section == "ℹ About Project":
 
     st.markdown("---")
     st.markdown("""
-    <div style="text-align: center; color: #00ffff; font-style: italic; font-size: 18px; margin-top: 30px;">
+    <div style="text-align: center; color: #00008B; font-style: italic; font-size: 18px; margin-top: 30px;">
     💬 "Data is the new oil — and fraud detection is how we refine it." 💎
     </div>
     """, unsafe_allow_html=True)
