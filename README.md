@@ -75,8 +75,7 @@ and builds a real-time fraud detection system.
 ### Correlation Heatmap
 ![Heatmap](img_Correlation_Heatmap.png)
 
-### About
-![abput](img_about.png)
+
 
 
 ## 🛠️ Tech Stack
@@ -94,4 +93,4 @@ and builds a real-time fraud detection system.
 
 ## 👩‍💻 Developed By
 **Shikha Sahu **
- MMMUT Gorakhpur | 2025
+
