@@ -67,7 +67,17 @@ and builds a real-time fraud detection system.
 ![Dashboard](img_dashboard.png)
 
 ### Class Distribution
-![Prediction](img_class.png)
+![Class](img_class.png)
+
+### Real-time Fraud Detection App
+![Prediction](img_prediction.png)
+
+### Correlation Heatmap
+![Heatmap](img_Correlation_Heatmap.png)
+
+### About
+![abput](img_about.png)
+
 
 ## 🛠️ Tech Stack
 | Category | Tools |
