@@ -61,6 +61,13 @@ and builds a real-time fraud detection system.
 - 🔒 Privacy-first — No data logging
 
 ---
+## 🖥️ Dashboard Screenshots
+
+### Dataset Overview
+![Dashboard](img_dashboard.png)
+
+### Class Distribution
+![Prediction](img_class.png)
 
 ## 🛠️ Tech Stack
 | Category | Tools |
